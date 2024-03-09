@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="hint_wt">Enter weight</string>
+    <string name="hint_HF">Enter height in Ft </string>
+    <string name="hint_HI">Enter height in In </string>
+    <string name="bmi">BMI Calculator</string>
+    <string name="submit">Know Your BMI</string>
+    <string name="normal_bmi">Your BMI is (%.2f) Normal.</string>
+
+    <string name="underweight">Your BMI is (%.2f) Underweight.</string>
+
+    <string name="overweight">Your BMI is (%.2f) Overweight.</string>
+
+
+</resources>

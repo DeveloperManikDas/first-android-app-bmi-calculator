@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:id="@+id/bmi_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="weight"
+        android:ems="10"
+        android:hint="@string/hint_wt"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="#546E7A" />
+
+
+
+    <EditText
+        android:id="@+id/heightF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="heart_rate"
+        android:ems="10"
+        android:hint="@string/hint_HF"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColorHint="#546E7A" />
+
+    <EditText
+        android:id="@+id/heightI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints="height_inches"
+        android:ems="10"
+        android:hint="@string/hint_HI"
+        android:inputType="number"
+        android:padding="16dp"
+        android:textColorHint="#546E7A" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:layout_margin="10dp"/>
+
+
+</LinearLayout>
